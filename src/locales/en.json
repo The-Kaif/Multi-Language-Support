@@ -1,0 +1,91 @@
+{
+    "navbar.learn": "Learn",
+    "navbar.blog": "Blog",
+    "navbar.language": "Language",
+    "breadcrumb.learn": "Learn",
+    "breadcrumb.blog": "Blog",
+    "learn.title": "Quick Start",
+    "learn.intro": "Welcome to the React documentation!...",
+    "breadcrumb.page": "Page",
+    "learn.quickStart": "Quick Start",
+    "learn.welcomeMessage": "Welcome to the React documentation! This page will give you an introduction to the 80% of React concepts that you will use on a daily basis.",
+    "learn.youWillLearn": "You will learn",
+    "learn": {
+      "listArr": {
+        "item1": "How to create and nest components",
+        "item2": "How to display data",
+        "item3": "How to render conditions and lists",
+        "item4": "How to respond to events and update the screen",
+        "item5": "How to share data between components"
+      }
+    },
+    "learnData": {
+      "Creating and nesting components": {
+        "title": "Creating and nesting components",
+        "content": "React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page."
+      },
+      "Displaying data": {
+        "title": "Displaying data",
+        "content": "JSX lets you put markup into JavaScript. Curly braces let you “escape back” into JavaScript so that you can embed some variable from your code and display it to the user. For example, this will display user.name."
+      },
+      "Conditional rendering": {
+        "title": "Conditional rendering",
+        "content": "In React, there is no special syntax for writing conditions. Instead, you’ll use the same techniques as you use when writing regular JavaScript code. For example, you can use an if statement to conditionally include JSX."
+      },
+      "Updating the screen": {
+        "title": "Updating the screen",
+        "content": "Often, you’ll want your component to “remember” some information and display it. For example, maybe you want to count the number of times a button is clicked. To do this, add state to your component."
+      },
+      "Using Hooks": {
+        "title": "Using Hooks",
+        "content": "Functions starting with use are called Hooks. useState is a built-in Hook provided by React. You can find other built-in Hooks in the API reference. You can also write your own Hooks by combining the existing ones."
+      }
+    },
+    "blog": {
+      "title": "React Blog",
+      "intro": "This blog is the official source for the updates from the React team. Anything important, including release notes or deprecation notices, will be posted here first. You can also follow the @reactjs account on Twitter, but you won’t miss anything essential if you only read this blog.",
+      "posts": [
+        {
+          "title": "React Canaries: Enabling Incremental Feature Rollout Outside Meta",
+          "content": "Traditionally, new React features used to only be available at Meta first, and land in the open source releases later. We'd like to offer the React community an option to adopt individual new features as soon as their design is close to final- similar to how Meta uses React internally. We are introducing a new officially supported Canary release channel. It lets curated setups like frameworks decouple adoption of individual React features from the React release schedule.",
+          "time": "May 3, 2023"
+        },
+        {
+          "title": "React Labs: What We've Been Working On – March 2023",
+          "content": "In React Labs posts, we write about projects in active research and development. Since our last update, we've made significant progress on React Server Components, Asset Loading, Optimizing Compiler, Offscreen Rendering, and Transition Tracing, and we'd like to share what we learned.",
+          "time": "March 22, 2023"
+        },
+        {
+          "title": "Introducing react.dev",
+          "content": "Today we are thrilled to launch react.dev, the new home for React and its documentation. In this post, we would like to give you a tour of the new site.",
+          "time": "March 16, 2023"
+        },
+        {
+          "title": "React Labs: What We've Been Working On – June 2022",
+          "content": "React 18 was years in the making, and with it brought valuable lessons for the React team. Its release was the result of many years of research and exploring many paths. Some of those paths were successful; many more were dead-ends that led to new insights. One lesson we've learned is that it's frustrating for the community to wait for new features without having insight into these paths that we're exploring...",
+          "time": "June 15, 2022"
+        },
+        {
+          "title": "React v18.0",
+          "content": "React 18 is now available on npm! In our last post, we shared step-by-step instructions for upgrading your app to React 18. In this post, we'll give an overview of what's new in React 18, and what it means for the future...",
+          "time": "March 29, 2022"
+        },
+        {
+          "title": "How to Upgrade to React 18",
+          "content": "As we shared in the release post, React 18 introduces features powered by our new concurrent renderer, with a gradual adoption strategy for existing applications. In this post, we will guide you through the steps for upgrading to React 18...",
+          "time": "March 8, 2022"
+        },
+        {
+          "title": "React Conf 2021 Recap",
+          "content": "Last week we hosted our 6th React Conf. In previous years, we've used the React Conf stage to deliver industry changing announcements such as React Native and React Hooks. This year, we shared our multi-platform vision for React, starting with the release of React 18 and gradual adoption of concurrent features...",
+          "time": "December 17, 2021"
+        },
+        {
+          "title": "Introducing Zero-Bundle-Size React Server Components",
+          "content": "2020 has been a long year. As it comes to an end we wanted to share a special Holiday Update on our research into zero- bundle-size React Server Components. To introduce React Server Components, we have prepared a talk and a demo. If you want, you can check them out during the holidays, or later when work picks back up in the new year...",
+          "time": "December 21, 2020"
+        }
+      ]
+    }
+  }
+  
